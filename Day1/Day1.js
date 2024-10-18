@@ -9,19 +9,20 @@
 //  let target = 9;
 //  output = -1; 
 
-let bag = -1
+// let bag = -1
 
-for(let x=0; x<arr.length; x++){
-    if(arr[x] == target){
-        bag = x;
-    }
-}
+// for(let x=0; x<arr.length; x++){
+//     if(arr[x] == target){
+//         bag = x;
+//     }
+// }
 
-console.log(bag)
+// console.log(bag)
 
+let arr = [1,2,3,4,5,6];
+ let target = 9;
 
-
-function solve(arr,target){
+function solve(){
     for(let x=0; x<arr.length; x++){
         if(arr[x] == target){
             return x;
